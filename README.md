@@ -1,9 +1,9 @@
 # CodeIgniter - Vue.js Starter
-Paket awal untuk membuat Single Page Application (SPA) dengan CodeIgniter dan Vue.js
+> Paket awal untuk membuat Single Page Application (SPA) dengan CodeIgniter dan Vue.js
 
 ## Detail
 1. CodeIgniter `3.1.9` dilengkapi dengan library `REST_Controller`
-2. Vue.js `2.5.2` dengan template Webpack
+2. Vue.js `2.5.17` dengan template Webpack
 
 ## Dibutuhkan
 1. Node.js dan npm (Paket manajer untuk Node.js)
@@ -13,7 +13,8 @@ Setelah melakukan `Clone` atau `Download`, diperlukan konfigurasi, antara lain:
 
 1. Install `node_modules`
 ```
-// ci-vue-starter/client
+# ci-vue-starter/client
+
 npm install
 ```
 
@@ -24,7 +25,8 @@ Terdapat 2 cara menjalankannya, yaitu `Development` dan `Production`
 Pada tahap ini, Vue.js masih dalam tahap pengerjaan. Dapat diartikan proyek tidak bisa dijalankan melalui CodeIgniter. Harus melalui server khusus Vue.js
 Untuk menjalankannya seperti di bawah ini (Administrator mungkin dibutuhkan).
 ```
-// ci-vue-starter/client
+# ci-vue-starter/client
+
 npm run dev
 ```
 
@@ -36,11 +38,11 @@ Untuk menjalankannya, hanya tinggal mengunjungi:
 ## Lain - lain
 1. Semua sintaks di atas dijalankan melalui `CMD` pada Windows atau `terminal` pada Linux/Mac
 2. Contoller `Books` adalah contoh.
-3. Pada tahap Production, mungkin dibutuhkan penambahan Construction `base` pada Routing di Vue. [Referensi](https://router.vuejs.org/api/#base)
+3. Pada tahap Production, mungkin dibutuhkan penambahan Construction `base` pada Routing di Vue untuk dijalankan pada `localhost`. [Referensi](https://router.vuejs.org/api/#base)
 
 ## Kredit
-[Vue.js](https://vuejs.org), 
-[CodeIgniter REST Server](https://github.com/chriskacerguis/codeigniter-restserver)
+- [Vue.js](https://vuejs.org)
+- [CodeIgniter REST Server](https://github.com/chriskacerguis/codeigniter-restserver)
 
 ## Lisensi
 [MIT](https://github.com/andriannus/ci-vue-starter/blob/master/LICENSE)
